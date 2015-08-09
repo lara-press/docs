@@ -1,0 +1,26 @@
+- Setup
+    - [Installation](/docs/{{version}}/installation "Installation")
+    - [Config](/docs/{{version}}/config "Config")
+- Basics
+    - [Routing](/docs/{{version}}/routing "Routing")
+    - [Controllers](/docs/{{version}}/controllers "Controller")
+- WordPress
+    - [Actions](/docs/{{version}}/actions "Actions")
+    - [Admin](/docs/{{version}}/admin "Admin")
+    - [Custom Post Types](/docs/{{version}}/custom-post-types "Custom Post Types")
+    - [Filters](/docs/{{version}}/filters "Filters")
+    - [Menus](/docs/{{version}}/menus "Menus")
+    - [MetaBox](/docs/{{version}}/metabox "MetaBox")
+    - [Page](/docs/{{version}}/page "Page")
+    - [Post](/docs/{{version}}/post "Post")
+    - [Sidebars](/docs/{{version}}/sidebars "Sidebars")
+    - [Taxonomies](/docs/{{version}}/taxonomies "Taxonomies")
+    - [Templates](/docs/{{version}}/templates "Templates")
+    - [Widgets](/docs/{{version}}/widgets "Widgets")
+    - [User](/docs/{{version}}/user "User")
+- Framework
+    - [Assets](/docs/{{version}}/assets "Assets")
+    - [Auth](/docs/{{version}}/auth "Auth")
+    - [Hashing](/docs/{{version}}/hashing "Hashing")
+    - [Helpers](/docs/{{version}}/helpers "Helpers")
+    - [Repositories](/docs/{{version}}/repositories "Repositories")

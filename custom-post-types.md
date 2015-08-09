@@ -1,53 +1,42 @@
-# Avorum incenduntque saxa cum
+#Custom Post Types
 
-## Clipeus ab post
+- [Creating a Custom Post Type](#create-cpt)
+- [Advanced Custom Fields](#acf)
 
-Lorem markdownum et tamen flammas robore, panda ad illo inceptaque. Plura
-futuros currum clarissimus urbem non, quos inpete est magno poterit in reliquit
-sorore.
+<a name="create-cpt"></a>
+##Create a Custom Post Type
 
-> Nec vide perisset incepti elidunt melle securi niveum. Suam tamen Dianae
-> servaverat *vagantem*.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis, 
+sem a ultricies porttitor, metus velit hendrerit erat, id vulputate nulla mauris 
+eget tortor.
 
-## Atra resupino cuspide potest templisque agnovit rogati
+```php
+class Project extends Model implements CustomPostType
+{
+    /**
+     * Returns an array of arguments that define the custom post type. 
+     * These are the same arguments that would normally be passed to register_post_type.
+     *
+     * @see register_post_type
+     * @return array
+     */
+    public function customPostTypeData()
+    {
+        return [
+            'rewrite' => ['slug' => 'project'],
+            'supports' => array('title', 'editor', 'thumbnail'),
+        ];
+    }
+}
+```
 
-Obstipuit Telamonius. Mihi in: ire saepe hanc narrat sorores dolores illam
-forma, exul mare, quo. Non utero sub finierat noverca qui Icare coeamus, nec
-moventur duras possis Orchomenon certamina. Quid superi dumosaque
-promunturiumque progeniem Atlantis videre torsi bracchia et casuras. Radiante
-miseros nox exigere sedent nox qua.
+<a name="acf"></a>
+##Advanced Custom Fields
 
-## Alvum amplexibus sopor
+One of the best plugins available for WordPress is [Advanced Custom Fields](http://www.advancedcustomfields.com/),
+by Elliot Condon. LaraPress makes accessing your custom fields simple.
 
-Cernere et sine Stygia timoris corpora moribundo relinque Labros luctibus dique
-commisisse deponunt nepos! Rebar iacet fuerat **in Latinis**, opem poma
-habentia: maius per antemnae laudemque tinctas baculo inplet. Gladiis
-[laqueique](http://www.reddit.com/r/haskell), graviore nuntia inferna me venis
-puerilibus Thracum parce pervius limite Riphea frui exstat metuis et est
-insignia. Rebus est virgo, ait aquarum, gurgite aut quae. Carmina quippe posset
-lux ducentem manus mendacem faciemque fuit audito.
+```php
+$location = $project->getField('location');
 
-> Nec numine multa exigit sensim fuit rumpe crimina, illo nigro, in illis rugas
-> convertit. Evolat ecquis amplexus proelia minimos! Illum ferre, ab illum
-> *medio maior* Cupido, [dabimus](http://kimjongunlookingatthings.tumblr.com/),
-> premunt. Et pars protinus ripam iubet est: ad nullus iunctisque suppositosque
-> nymphas alterius. Nec nympha inquit nate imperat **quondamque** vocis non sua
-> ante auxilium supposuique tecta iniere, audita morbi, foramen.
-
-## Ante piscem ferarum deferre
-
-Titulum foedera timide aut est furori, potentia inpellit pars, erat illa. Nimia
-videt: lanam sine vertice fama eadem, amores ego tamen? Tenet facundia nec: ora
-magis regebat monitae quae prisci, morientia dixit, magno forte [fluviumque
-vetus](http://hipstermerkel.tumblr.com/). Exsiliantque honore omnis nequeam.
-*Inpediit ait vince* vidit cortice nivea, **lignum** crura peccasse colebat sed
-proque, cecidisse nata timor tuebere convertit silicem.
-
-Putat lumina thalamos autumnos imagine sollertius ardebant et satos, ebur novi,
-maculosae excipit corpus reditusque edax victor. Oculos vestri, accessit
-sequitur et gloria moderator Lycaon. Iuga avus super Perseus, tamen et umeros
-nudata, et movimus lecto oramus paulumque Amathusiacasque. Inmoritur labentibus
-matres. Tollere quae traiectus.
-
-Tum ego Terea ripae placere **indignave ursos**; ora amans repetit in. Iocosa
-aquas.
+```
