@@ -1,14 +1,20 @@
 - Setup
+    - [Introduction](/docs/{{version}}/introduction "Introduction")
     - [Installation](/docs/{{version}}/installation "Installation")
-    - [Config](/docs/{{version}}/config "Config")
-- Basics
-    - [Routing](/docs/{{version}}/routing "Routing")
-    - [Controllers](/docs/{{version}}/controllers "Controller")
-- WordPress
+- Laravel Basics
+    - [Routing](http://laravel.com/docs/5.1/routing "Routing")
+    - [Middleware](http://laravel.com/docs/5.1/middleware "Middleware")
+    - [Controllers](http://laravel.com/docs/5.1/controllers "Controller")
+    - [Requests](http://laravel.com/docs/5.1/requests "Requests")
+    - [Responses](http://laravel.com/docs/5.1/responses "Responses")
+    - [Views](http://laravel.com/docs/5.1/views "Views")
+    - [Blade Templates](http://laravel.com/docs/5.1/blade "Blade Templates")
+- LaraPress
     - [Actions](/docs/{{version}}/actions "Actions")
     - [Admin](/docs/{{version}}/admin "Admin")
     - [Custom Post Types](/docs/{{version}}/custom-post-types "Custom Post Types")
     - [Filters](/docs/{{version}}/filters "Filters")
+    - [Helpers](/docs/{{version}}/helpers "Helpers")
     - [Menus](/docs/{{version}}/menus "Menus")
     - [MetaBox](/docs/{{version}}/metabox "MetaBox")
     - [Page](/docs/{{version}}/page "Page")
@@ -16,11 +22,5 @@
     - [Sidebars](/docs/{{version}}/sidebars "Sidebars")
     - [Taxonomies](/docs/{{version}}/taxonomies "Taxonomies")
     - [Templates](/docs/{{version}}/templates "Templates")
-    - [Widgets](/docs/{{version}}/widgets "Widgets")
     - [User](/docs/{{version}}/user "User")
-- Framework
-    - [Assets](/docs/{{version}}/assets "Assets")
-    - [Auth](/docs/{{version}}/auth "Auth")
-    - [Hashing](/docs/{{version}}/hashing "Hashing")
-    - [Helpers](/docs/{{version}}/helpers "Helpers")
-    - [Repositories](/docs/{{version}}/repositories "Repositories")
+    - [Widgets](/docs/{{version}}/widgets "Widgets")

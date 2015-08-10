@@ -3,7 +3,7 @@
 - [Defining Sidebars](#sidebars)
 
 <a name="sidebars"></a>
-##Sidebars
+##Defining Sidebars
 
 Located in `/app/Providers/SidebarServiceProvider.php`, add another entry to the `$sidebars` array.
 
