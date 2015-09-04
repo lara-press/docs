@@ -1,21 +1,36 @@
 #Sidebars
 
-- [Defining Sidebars](#sidebars)
+- [Defining Sidebars](#defining-sidebars)
 
-<a name="sidebars"></a>
+<a name="defining-sidebars"></a>
 ##Defining Sidebars
 
-Located in `/app/Providers/SidebarServiceProvider.php`, add another entry to the `$sidebars` array.
+To add a new sidebar, all we have to do is access our sidebar service provider located at `/app/Providers/SidebarServiceProvider.php`, 
+and add another element to the property `$sidebars` array.
 
 ```php
-protected $sidebars = [
-    [
-        'name'        => 'Example sidebar',
-        'description' => 'Just an example sidebar.',
-    ],
-    [
-        'name'        => 'Another sidebar',
-        'description' => 'This sidebar is awesome.',
-    ],
-];
+<?php namespace App\Providers;
+
+use LaraPress\Sidebars\SidebarServiceProvider as BaseSidebarServiceProvider;
+
+class SidebarServiceProvider extends BaseSidebarServiceProvider
+{
+
+    /**
+     * An array of sidebars to be loaded as Wordpress sidebars.
+     *
+     * @see LaraPress\Sidebars\SidebarServiceProvider for proper structure
+     * @var array
+     */
+    protected $sidebars = [
+        [
+            'name'        => 'Example sidebar',
+            'description' => 'Just an example sidebar',
+        ],
+        [
+            'name'        => 'Another Sidebar',
+            'description' => 'This is just another sidebar'
+        ]
+    ];
+}
 ```

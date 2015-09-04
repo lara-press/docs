@@ -15,7 +15,7 @@
     - [Custom Post Types](/docs/{{version}}/custom-post-types "Custom Post Types")
     - [Filters](/docs/{{version}}/filters "Filters")
     - [Helpers](/docs/{{version}}/helpers "Helpers")
-    - [Menus](/docs/{{version}}/menus "Menus")
+    - [Menu Locations](/docs/{{version}}/menu-locations "Menu Locations")
     - [MetaBox](/docs/{{version}}/metabox "MetaBox")
     - [Page](/docs/{{version}}/page "Page")
     - [Post](/docs/{{version}}/post "Post")
