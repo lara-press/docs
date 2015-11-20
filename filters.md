@@ -17,10 +17,9 @@ use Illuminate\Support\ServiceProvider;
 
 class ThemeFunctionsServiceProvider extends ServiceProvider
 {
-
     public function register()
     {
-        $this->app['filters']->listen('teh_contnet', function() {
+        $this->app['filters']->listen('the_content', function() {
             //Code goes here
         });
     }

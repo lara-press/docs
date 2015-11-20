@@ -1,15 +1,11 @@
 - Setup
-    - [Introduction](/docs/{{version}}/introduction "Introduction")
     - [Installation](/docs/{{version}}/installation "Installation")
-- Laravel Basics
+- Basics
     - [Routing](http://laravel.com/docs/5.1/routing "Routing")
-    - [Middleware](http://laravel.com/docs/5.1/middleware "Middleware")
     - [Controllers](http://laravel.com/docs/5.1/controllers "Controller")
-    - [Requests](http://laravel.com/docs/5.1/requests "Requests")
-    - [Responses](http://laravel.com/docs/5.1/responses "Responses")
     - [Views](http://laravel.com/docs/5.1/views "Views")
     - [Blade Templates](http://laravel.com/docs/5.1/blade "Blade Templates")
-- LaraPress
+- Framework
     - [Actions](/docs/{{version}}/actions "Actions")
     - [Admin](/docs/{{version}}/admin "Admin")
     - [Custom Post Types](/docs/{{version}}/custom-post-types "Custom Post Types")
