@@ -48,7 +48,7 @@ class Project extends Model implements CustomPostType
             'exclude_from_search' => false,
             'publicly_queryable'  => true,
             'capability_type'     => 'page',
-            'rewrite'             => ['slug' => 'larapress-projects']'
+            'rewrite'             => ['slug' => 'larapress-projects']
         ];
     }
 }
