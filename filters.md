@@ -43,7 +43,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 Of course you can also hook into Wordpress filters using the app helper function.
 
 ```php
-filters()->listen('the_content', function($content) {
-    return sprintf('<p>Prepend Paragraph here.</p>%s', $content);
+app('filters')->listen('the_content', function($content) {
+    //Code goes here
 });
 ```
