@@ -10,7 +10,7 @@ Easily hook into Wordpress's actions.
 
 Instead of creating a function then calling that function inside of Wordpress's [`add_action`](https://developer.wordpress.org/reference/functions/add_action/) function, simply access it through the service container and use a callback. 
 
-Let's say we've created a service provider specifically for theme functions. We'll send an email when on `save_post`.
+Let's say we've created a service provider specifically for theme functions. We'll send an email on `save_post`.
 
 ```php
 <?php namespace App\Providers;
