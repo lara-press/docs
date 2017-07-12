@@ -19,12 +19,12 @@
     - [Widgets](/widgets.md "Widgets")
 
 - ## Need Documentation
-    - Admin
-    - Helpers
-    - MetaBox
-    - Page
-    - Post
-    - Taxonomies
-    - User
+    - [Admin](/admin.md "Admin")
+    - [Helpers](/helpers.md "Helpers")
+    - [MetaBox](/metabox.md "MetaBox")
+    - [Page](/page.md "Page")
+    - [Post](/post.md "Post")
+    - [Taxonomies](/taxonomies.md "Taxonomies")
+    - [User](/user.md "User")
 
 Interested in contributing to the documentation? Send us a pull request!
