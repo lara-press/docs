@@ -21,7 +21,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app['actions']->listen('the_content', function($content) {
+        $this->app['filters']->listen('the_content', function($content) {
             
             if (is_single()) {
                 $content = sprintf(

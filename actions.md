@@ -23,7 +23,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 
     public function register()
     {
-        actions()->listen('save_post', function($id, $post) {
+        $this->app['actions']->listen('save_post', function($id, $post) {
             app('mailer')->send('emails.saved_post', $post, function(Message $message) {
                 $message->from('no-reply@example.com');
                 $message->to('admin@example.com');
