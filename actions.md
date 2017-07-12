@@ -1,10 +1,10 @@
-#Actions
+# Actions
 
 - [Using Actions in Service Providers](#actions-in-service-providers)
 - [Using Actions with the App Helper Function](#actions-with-app-helper-function)
 
 <a name="actions-in-service-providers"></a>
-##Using Actions in Service Providers
+## Using Actions in Service Providers
 
 Easily hook into Wordpress's actions.
 
@@ -35,7 +35,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 ```
 
 <a name="actions-with-app-helper-function"></a>
-##Using Actions with the App Helper Function
+## Using Actions with the App Helper Function
 
 Of course you can also hook into Wordpress actions using the app helper function.
 
