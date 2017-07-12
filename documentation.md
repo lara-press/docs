@@ -1,11 +1,13 @@
-- Setup
+# LaraPress
+
+- ## Setup
     - [Installation](/installation.md "Installation")
-- Basics
+- ##  Basics
     - [Routing](http://laravel.com/docs/5.3/routing "Routing")
     - [Controllers](http://laravel.com/docs/5.3/controllers "Controller")
     - [Views](http://laravel.com/docs/5.3/views "Views")
     - [Blade Templates](http://laravel.com/docs/5.3/blade "Blade Templates")
-- Framework
+- ## Services
     - [Actions](/actions.md "Actions")
     - [Admin](/admin.md "Admin")
     - [Custom Post Types](/custom-post-types.md "Custom Post Types")
