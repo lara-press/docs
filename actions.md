@@ -22,7 +22,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app['actions']->listen('plugins_loaded', function() {
+        actions()->listen('plugins_loaded', function() {
             //Code goes here
         });
     }

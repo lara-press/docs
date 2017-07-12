@@ -8,15 +8,19 @@
     - [Controllers](http://laravel.com/docs/5.3/controllers "Controller")
     - [Views](http://laravel.com/docs/5.3/views "Views")
     - [Blade Templates](http://laravel.com/docs/5.3/blade "Blade Templates")
-
-- ## Services
-    - [Actions](/actions.md "Actions")
     - [Custom Post Types](/custom-post-types.md "Custom Post Types")
+    - [Actions](/actions.md "Actions")
     - [Filters](/filters.md "Filters")
-    - [Menu Locations](/menu-locations.md "Menu Locations")
+    - [Facades](/facades.md "Facades")
+        
+- ## Services
+    - [Menus](/menus.md "Menus")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
+    
+- ## Other
+    - [Providers](/providers.md "Providers")
 
 - ## Need Documentation
     - [Admin](/admin.md "Admin")
