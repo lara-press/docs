@@ -1,4 +1,4 @@
-#Installation
+# Installation
 
 - [Installation](#installation)
     - [Server Requirements](#server-requirements)
@@ -10,10 +10,10 @@
     - [Application Key](#application-key)
 
 <a name="installation"></a>
-##Installation
+## Installation
 
 <a name="server-requirements"></a>
-###Server Requirements
+### Server Requirements
 - PHP >= 5.6.4
 - OpenSSL PHP Extension
 - PDO PHP Extension
@@ -22,7 +22,7 @@
 - XML PHP Extension
 
 <a name="installing-larapress"></a>
-###Installing LaraPress
+### Installing LaraPress
 LaraPress utilizes [Composer](http://getcomposer.org) to manage its dependencies. So, before using LaraPress, 
 make sure you have Composer installed on your machine.
 
