@@ -1,10 +1,10 @@
-#Filters
+# Filters
 
 - [Using Filters in Service Providers](#filters-in-service-providers)
 - [Using Filters with the App Helper Function](#filters-with-app-helper-function)
 
 <a name="filters-in-service-providers"></a>
-##Using Filters in Service Providers
+## Using Filters in Service Providers
 
 We can easily hook into Wordpress's filters, instead of creating a function then calling that function inside of Wordpress's 
 `add_filter` function, we simply access it through the service container and use a callback. Let's say we've created a service 
@@ -27,7 +27,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 ```
 
 <a name="filters-with-app-helper-function"></a>
-##Using Filters with the App Helper Function
+## Using Filters with the App Helper Function
 
 Of course you can also hook into the Wordpress filters using the app helper function.
 

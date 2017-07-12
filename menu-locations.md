@@ -1,9 +1,9 @@
-#Menu Locations
+# Menu Locations
 
 - [Defining Menu Locations](#menu-locations)
 
 <a name="menu-locations"></a>
-##Defining Menu Locations
+## Defining Menu Locations
 
 To add a new menu location, all we have to do is access our menu service provider located at `/app/Providers/MenuServiceProvider.php`, 
 and add another element to the property `$menus` array.

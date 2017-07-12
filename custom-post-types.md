@@ -1,10 +1,10 @@
-#Custom Post Types
+# Custom Post Types
 
 - [Creating a Custom Post Type](#create-cpt)
 - [Advanced Custom Fields](#acf)
 
 <a name="create-cpt"></a>
-##Creating a Custom Post Type
+## Creating a Custom Post Type
 
 To create a Wordpress custom post type, we need to create a new class under `/app` that extends our `Post` class and implements 
 the `CustomPostType` interface. Our post class is an Eloquent ORM so you'll have access to all of it's functionality. When 
@@ -55,7 +55,7 @@ class Project extends Model implements CustomPostType
 ```
 
 <a name="acf"></a>
-##Advanced Custom Fields
+## Advanced Custom Fields
 
 One of the best plugins available for WordPress is [Advanced Custom Fields](http://www.advancedcustomfields.com/),
 by Elliot Condon. LaraPress makes accessing your Advanced Custom Fields meta simple by using the method `getField` which 

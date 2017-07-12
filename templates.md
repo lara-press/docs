@@ -1,9 +1,9 @@
-#Templates
+# Templates
 
 - [Using Views Within Themes](#using-views-within-themes)
 
 <a name="using-views-within-themes"></a>
-##Using Views Within Themes
+## Using Views Within Themes
 
 The standard Laravel way of using the Blade templating is to create your views at `/resources/views/`. This still works
 the exact same way, although if you'd like to keep the views within your theme, LaraPress allows you to create your views

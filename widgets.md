@@ -1,10 +1,10 @@
-#Widgets
+# Widgets
 
 - [Defining Widgets](#defining-widgets)
 - [Registering Widgets](#registering-widgets)
 
 <a name="defining-widgets"></a>
-##Defining Widgets
+## Defining Widgets
 
 Create the widget class at '/app/Widgets', which will look similar to Wordpress's format except we extend our own widget 
 class. From here, if you want to return a view you must `echo` it.
@@ -48,7 +48,7 @@ class ExampleWidget extends Widget
 ```
 
 <a name="registering-widgets"></a>
-##Registering Widgets
+## Registering Widgets
 
 Next we'll need to register our widget the in the widgets service provider located at `/app/Providers/WidgetServiceProvider`.
 
