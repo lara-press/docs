@@ -1,5 +1,5 @@
 - Setup
-    - [Installation](/docs/{{version}}/installation "Installation")
+    - [Installation](/installation.md "Installation")
 - Basics
     - [Routing](http://laravel.com/docs/5.1/routing "Routing")
     - [Controllers](http://laravel.com/docs/5.1/controllers "Controller")
