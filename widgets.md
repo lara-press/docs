@@ -6,32 +6,32 @@
 <a name="defining-widgets"></a>
 ## Defining Widgets
 
-Create the widget class at '/app/Widgets', which will look similar to Wordpress's format except we extend our own widget 
-class. From here, if you want to return a view you must `echo` it.
+Create a widget class in `/app/Widgets`. It looks very similar to the [Wordpress format](https://codex.wordpress.org/Widgets_API) except we extend our own widget class. From here, if you want to return a view you must `echo` it.
 
 *Note: Leaving empty form and update methods can break the widget*
 
 ```php
 <?php namespace App\Widgets;
 
+use App\News;
 use LaraPress\Widgets\Widget;
 
 class ExampleWidget extends Widget
 {
 
-    protected $recentNews;
+    protected $news;
 
-    function __construct(News $news)
+    function __construct()
     {
-        parent::__construct(false, 'Example Widget');
-        $this->recentNews = $news->getRecentNews();
+        parent::__construct(class_basename($this), 'News Widget');
+        $this->news = News::all();
     }
 
     // Output
     function widget($args, $instance)
     {
-        echo view('widgets.example-widget', array(
-            'recent-posts' => $this->recentPosts
+        echo view('widgets.news', array(
+            'news' => $this->news
         ));
     }
 

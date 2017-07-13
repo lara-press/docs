@@ -37,6 +37,8 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 }
 ```
 
+Note: Many filters (like `the_content`) are unnecessary with LaraPress because pages use blade! We tend to only use filters with plugins and to modify the admin interface when needed.
+
 <a name="filters-with-app-helper-function"></a>
 ## Using Filters with the App Helper Function
 
