@@ -16,11 +16,11 @@
     - [Menus](/menus.md "Menus")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Taxonomies](/taxonomies.md "Taxonomies")
-    - [Templates](/templates.md "Templates (Add more)")
+    - [Templates (Expand)](/templates.md "Templates (Expand)")
     - [Widgets](/widgets.md "Widgets")
     - [Admin Pages](/admin.md "Admin Pages")
     
-- ## Other
+- ## Other (Need Work)
     - [Facades](/facades.md "Facades")
     - [Providers](/providers.md "Providers")
 
