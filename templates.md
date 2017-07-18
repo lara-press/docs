@@ -6,7 +6,7 @@
 ## Using Templates
 When you create templates in the `view/templates` folder, they are are available as options in a metabox on post types through WP Admin. 
 
-Also for Posts, Pages, Custom Post Types, template values available in views the `$__template` variable. 
+Also for Posts, Pages, Custom Post Types, template values are available in views with the `$__template` variable. 
 
 Easily switch between templates and custom pages below with this in your master blade file.
 
