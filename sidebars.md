@@ -1,8 +1,8 @@
 # Sidebars
 
 - [Defining Sidebars](#defining-sidebars)
+- [Using Sidebars](#using-sidebars)
 
-<a name="defining-sidebars"></a>
 ## Defining Sidebars
 
 To add a new sidebar, all we have to do is access our sidebar service provider located at `/app/Providers/SidebarServiceProvider.php`, 
@@ -33,4 +33,14 @@ class SidebarServiceProvider extends BaseSidebarServiceProvider
         ]
     ];
 }
+```
+
+## Using Sidebars
+
+Registered Sidebars are are available as options in a metabox on post types through WP Admin.
+
+Use the `$__sidebar` variable with the `@sidebar` blade directive when creating views for a Post, Page, or Custom Post Type. 
+
+```blade
+@sidebar($__sidebar)
 ```
