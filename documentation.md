@@ -16,7 +16,7 @@
     - [Menus](/menus.md "Menus")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Taxonomies](/taxonomies.md "Taxonomies")
-    - [Templates (Expand)](/templates.md "Templates (Expand)")
+    - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
     - [Admin Pages](/admin.md "Admin Pages")
     
