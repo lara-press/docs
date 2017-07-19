@@ -14,6 +14,7 @@
     - [Actions](/actions.md "Actions")
     - [Admin Pages](/admin.md "Admin Pages")
     - [Artisan](/artisan.md "Artisan")
+    - [Facades](/facades.md "Facades")
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
@@ -23,9 +24,6 @@
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
     
-- ## Other
-    - [Facades](/facades.md "Facades")
-
 - ## Need Documentation
     - [MetaBox](/metabox.md "MetaBox")
     - [Page](/page.md "Page")
