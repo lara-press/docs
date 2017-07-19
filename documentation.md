@@ -12,20 +12,20 @@
         
 - ## Services
     - [Actions](/actions.md "Actions")
+    - [Admin Pages](/admin.md "Admin Pages")
     - [Filters](/filters.md "Filters")
+    - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Taxonomies](/taxonomies.md "Taxonomies")
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
-    - [Admin Pages](/admin.md "Admin Pages")
     
 - ## Other (Need Work)
     - [Facades](/facades.md "Facades")
     - [Providers](/providers.md "Providers")
 
 - ## Need Documentation
-    - [Helpers](/helpers.md "Helpers")
     - [MetaBox](/metabox.md "MetaBox")
     - [Page](/page.md "Page")
     - [Post](/post.md "Post")

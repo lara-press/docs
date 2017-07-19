@@ -6,9 +6,9 @@
 <a name="filters-in-service-providers"></a>
 ## Using Filters in Service Providers
 
-Easily hook into Wordpress's filters. 
+Easily hook into WordPress' filters. 
 
-Instead of creating a function then calling that function inside of Wordpress's [`add_filter`](https://developer.wordpress.org/reference/functions/add_filter/) function, simply access it through the service container and use a callback. 
+Instead of creating a function then calling that function inside of WordPress' [`add_filter`](https://developer.wordpress.org/reference/functions/add_filter/) function, simply access it through the service container and use a callback. 
 
 Let's say we've created a service provider specifically for theme functions. We'll filter `the_content` output by using the `the_content` filter.  
 
@@ -42,7 +42,7 @@ Note: Many filters (like `the_content`) are unnecessary with LaraPress because p
 <a name="filters-with-app-helper-function"></a>
 ## Using Filters with the App Helper Function
 
-Of course you can also hook into Wordpress filters using the app helper function.
+Of course you can also hook into WordPress filters using the app helper function.
 
 ```php
 app('filters')->listen('the_content', function($content) {

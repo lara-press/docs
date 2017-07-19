@@ -6,7 +6,7 @@
 <a name="defining-widgets"></a>
 ## Defining Widgets
 
-Create a widget class in `/app/Widgets`. It looks very similar to the [Wordpress format](https://codex.wordpress.org/Widgets_API) except we extend our own widget class. From here, if you want to return a view you must `echo` it.
+Create a widget class in `/app/Widgets`. It looks very similar to the [WordPress format](https://codex.wordpress.org/Widgets_API) except we extend our own widget class. From here, if you want to return a view you must `echo` it.
 
 *Note: Leaving empty form and update methods can break the widget*
 
@@ -61,7 +61,7 @@ class WidgetServiceProvider extends BaseWidgetServiceProvider
 {
 
     /**
-     * An array of class names to be registered as Wordpress widgets.
+     * An array of class names to be registered as WordPress widgets.
      *
      * @var array
      */

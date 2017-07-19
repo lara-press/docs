@@ -6,7 +6,7 @@
 ## Creating a Taxonomy
 To create a custom taxonomy, create a class that implements the `CustomTaxonomy` interface. 
 
-The `CustomTaxonomy` interface requires the `taxonomyData` method which should return Wordpress [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/) function arguments.
+The `CustomTaxonomy` interface requires the `taxonomyData` method which should return WordPress [`register_taxonomy`](https://developer.wordpress.org/reference/functions/register_taxonomy/) function arguments.
 
 After the class is created, register it in the `TaxonomyServiceProvider` by adding it to the provider's `$taxonomies` array.
 

@@ -6,9 +6,9 @@
 <a name="create-cpt"></a>
 ## Creating a Custom Post Type
 
-To create a Wordpress custom post type, create a class that extends our `Post` class and implements the `CustomPostType` interface. 
+To create a WordPress custom post type, create a class that extends our `Post` class and implements the `CustomPostType` interface. 
 
-The `Post` class is an Eloquent Model. The `CustomPostType` interface requires the `customPostTypeData` method which should return Wordpress [`register_post_type`](https://developer.wordpress.org/reference/functions/register_post_type/) function arguments.
+The `Post` class is an Eloquent Model. The `CustomPostType` interface requires the `customPostTypeData` method which should return WordPress [`register_post_type`](https://developer.wordpress.org/reference/functions/register_post_type/) function arguments.
  
 After the class is created, register it in the PostTypeServiceProvider by adding it to the provider's `$postTypes` array.
 

@@ -6,9 +6,9 @@
 <a name="actions-in-service-providers"></a>
 ## Using Actions in Service Providers
 
-Easily hook into Wordpress's actions.
+Easily hook into WordPress' actions.
 
-Instead of creating a function then calling that function inside of Wordpress's [`add_action`](https://developer.wordpress.org/reference/functions/add_action/) function, simply access it through the service container and use a callback. 
+Instead of creating a function then calling that function inside of WordPress' [`add_action`](https://developer.wordpress.org/reference/functions/add_action/) function, simply access it through the service container and use a callback. 
 
 Let's say we've created a service provider specifically for theme functions. We'll send an email on `save_post`.
 
@@ -37,7 +37,7 @@ class ThemeFunctionsServiceProvider extends ServiceProvider
 <a name="actions-with-app-helper-function"></a>
 ## Using Actions with the App Helper Function
 
-Of course you can also hook into Wordpress actions using the app helper function.
+Of course you can also hook into WordPress actions using the app helper function.
 
 ```php
 app('actions')->listen('save_post', function() {
