@@ -12,11 +12,13 @@
         
 - ## Services
     - [Actions](/actions.md "Actions")
+    - [Artisan](/artisan.md "Artisan")
     - [Admin Pages](/admin.md "Admin Pages")
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
     - [Sidebars](/sidebars.md "Sidebars")
+    - [Shortcodes](/shortcodes.md "Shortcodes")
     - [Taxonomies](/taxonomies.md "Taxonomies")
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
@@ -25,7 +27,6 @@
     - [Facades](/facades.md "Facades")
 
 - ## Need Documentation
-    - [Providers](/providers.md "Providers")
     - [MetaBox](/metabox.md "MetaBox")
     - [Page](/page.md "Page")
     - [Post](/post.md "Post")
