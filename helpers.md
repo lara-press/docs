@@ -1,7 +1,7 @@
 # Helpers
 
 - [Available Helpers](#available-helpers)
-- [Examples](#examples)
+- [Example](#example)
 
 ## Available Helpers
 
@@ -29,6 +29,6 @@ Returns `\LaraPress\Posts\Post` from the service container if exists.
 
 ```php
 actions()->listen('admin_enqueue_scripts', function () {
-    assets()->enqueueStyle('theme', larapress_assets('/admin/admin.css'));
+    assets()->enqueueStyle('admin-theme', larapress_assets('/admin/admin.css'));
 });
 ```
