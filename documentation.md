@@ -12,8 +12,8 @@
         
 - ## Services
     - [Actions](/actions.md "Actions")
-    - [Artisan](/artisan.md "Artisan")
     - [Admin Pages](/admin.md "Admin Pages")
+    - [Artisan](/artisan.md "Artisan")
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
