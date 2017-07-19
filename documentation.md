@@ -21,11 +21,11 @@
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
     
-- ## Other (Need Work)
+- ## Other
     - [Facades](/facades.md "Facades")
-    - [Providers](/providers.md "Providers")
 
 - ## Need Documentation
+    - [Providers](/providers.md "Providers")
     - [MetaBox](/metabox.md "MetaBox")
     - [Page](/page.md "Page")
     - [Post](/post.md "Post")
