@@ -1,27 +1,29 @@
-#Custom Post Types
+# Custom Post Types
 
 - [Creating a Custom Post Type](#create-cpt)
 - [Advanced Custom Fields](#acf)
 
 <a name="create-cpt"></a>
-##Creating a Custom Post Type
+## Creating a Custom Post Type
 
-To create a Wordpress custom post type, we need to create a new class under `/app` that extends our `Post` class and implements 
-the `CustomPostType` interface. Our post class is an Eloquent ORM so you'll have access to all of it's functionality. When 
-implementing the `CustomPostType` interface you'll be required to include the `customPostTypeData` method, this is where
-all of your arguments from the `register_post_type` Wordpress function will be. If the labels array is not added as an argument,
-LaraPress will handle them automatically by creating a singular and plural label from the post type class name using Laravel 
-helpers, if you would like to override these auto created labels simply add the properties `$singluar` or `$plural` to the class.
+To create a WordPress custom post type, create a class that extends our `Post` class and implements the `CustomPostType` interface. 
+
+The `Post` class is an Eloquent Model. The `CustomPostType` interface requires the `customPostTypeData` method which should return WordPress [`register_post_type`](https://developer.wordpress.org/reference/functions/register_post_type/) function arguments.
+ 
+After the class is created, register it in the PostTypeServiceProvider by adding it to the provider's `$postTypes` array.
+
+Note: When labels are not added as an argument, LaraPress automatically creates both singular and plural labels from the custom post type class name using Laravel helpers. Override these auto created labels with `$singluar` or `$plural` properties on the class.
 
 ```php
 <?php namespace App;
 
+use LaraPress\Posts\Post as BasePost;
 use LaraPress\Contracts\Posts\CustomPostType;
 
-class Project extends Model implements CustomPostType
+class Project extends BasePost implements CustomPostType
 {
-    protected $singular = 'Larapress Project';
-    protected $plural = 'Larapress Projects';
+    protected $singular = 'LaraPress Project';
+    protected $plural = 'LaraPress Projects';
 
     /**
      * Returns an array of arguments that define the custom post type. 
@@ -55,19 +57,13 @@ class Project extends Model implements CustomPostType
 ```
 
 <a name="acf"></a>
-##Advanced Custom Fields
+## Advanced Custom Fields
 
-One of the best plugins available for WordPress is [Advanced Custom Fields](http://www.advancedcustomfields.com/),
-by Elliot Condon. LaraPress makes accessing your Advanced Custom Fields meta simple by using the method `getField` which 
-we have access to when we extended the `Post` model.
+One of the best plugins available for WordPress is [Advanced Custom Fields](http://www.advancedcustomfields.com/) by Elliot Condon. LaraPress makes accessing your Advanced Custom Fields meta simple by using the method `getField` on custom post types that extend the `Post` model.
 
 ```php
-public function single($slug, Project $projects)
+public function getLocation(Project $project)
 {
-    $project = $projects->findByName($slug);
-
-    $location = $project->getField('location');
-    
-    return view('pages.project-single', ['location' => $location])
+    return $project->getField('location');
 }
 ```
