@@ -8,12 +8,12 @@
     - [Controllers](http://laravel.com/docs/5.3/controllers "Controller")
     - [Views](http://laravel.com/docs/5.3/views "Views")
     - [Blade Templates](http://laravel.com/docs/5.3/blade "Blade Templates")
-    - [Custom Post Types](/custom-post-types.md "Custom Post Types")
         
 - ## Services
     - [Actions](/actions.md "Actions")
     - [Admin Pages](/admin.md "Admin Pages")
     - [Artisan](/artisan.md "Artisan")
+    - [Custom Post Types](/custom-post-types.md "Custom Post Types")
     - [Facades](/facades.md "Facades")
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
