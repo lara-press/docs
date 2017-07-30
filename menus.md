@@ -36,6 +36,8 @@ After registering the menu, create and assign a menu in WordPress to it. Then we
     app('menus')->find('header-nav')
 ```
 
-It returns an array of `MenuItem` objects appropriately nested as defined in WordPress.
+It returns an array of `MenuItem` objects appropriately nested as defined in WordPress. On a `MenuItem`, use the `getChildren` method for nested `MenuItem`s.
+
+You can also check if the `MenuItem` is active with the `isActive` method. See if a descendent is active with `hasActiveDescendent`.
 
 *To avoid using [`wp_nav_menu`](https://developer.wordpress.org/reference/functions/wp_nav_menu/) with it's predefined html structure, you can use this.
