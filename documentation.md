@@ -18,6 +18,7 @@
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
+    - [Multisite](/multisite.md "Multisite")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Shortcodes](/shortcodes.md "Shortcodes")
     - [Taxonomies](/taxonomies.md "Taxonomies")
