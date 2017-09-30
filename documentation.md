@@ -4,10 +4,10 @@
     - [Installation](/installation.md "Installation")
 
 - ##  Basics
-    - [Routing](http://laravel.com/docs/5.3/routing "Routing")
-    - [Controllers](http://laravel.com/docs/5.3/controllers "Controller")
-    - [Views](http://laravel.com/docs/5.3/views "Views")
-    - [Blade Templates](http://laravel.com/docs/5.3/blade "Blade Templates")
+    - [Routing](http://laravel.com/docs/5.4/routing "Routing")
+    - [Controllers](http://laravel.com/docs/5.4/controllers "Controller")
+    - [Views](http://laravel.com/docs/5.4/views "Views")
+    - [Blade Templates](http://laravel.com/docs/5.4/blade "Blade Templates")
         
 - ## Services
     - [Actions](/actions.md "Actions")
