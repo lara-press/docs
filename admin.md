@@ -6,7 +6,7 @@
 
 ## Register Admin Page Routes
 
-LaraPress allows you to register admin pages in the `routes/web.php`. Use the `adminGet` method to add an admin route. In the second argument, add additional parameters from [`add_menu_page`](https://developer.wordpress.org/reference/functions/add_menu_page/) such as `icon` and `position`. 
+LaraPress allows you to register admin pages in the `routes/web.php`. Use the `adminGet` method to add an admin route. In the second argument, add additional parameters from [`add_menu_page`](https://developer.wordpress.org/reference/functions/add_menu_page/) such as `icon` and `position`. In the example below, the route would be `/cms/wp-admin/admin.php?page=calendar`.
 
 
 ```php
