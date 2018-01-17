@@ -24,7 +24,7 @@ $router->adminGet('calendar', [
 
 ## Register Child Admin Page Routes
 
-Add child admin pages as well. In the second argument, add additional parameters from [`add_submenu_page`](https://developer.wordpress.org/reference/functions/add_submenu_page/).
+Add child admin pages as well. In the second argument, add additional parameters from [`add_submenu_page`](https://developer.wordpress.org/reference/functions/add_submenu_page/). In the example below, the route would be `/cms/wp-admin/admin.php?page=calendar-settings`.
 
 ```php
 
