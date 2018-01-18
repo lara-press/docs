@@ -15,18 +15,20 @@ After the class is created, register it in the PostTypeServiceProvider by adding
 Note: When labels are not added as an argument, LaraPress automatically creates both singular and plural labels from the custom post type class name using Laravel helpers. Override these auto created labels with `$singluar` or `$plural` properties on the class.
 
 ```php
-<?php namespace App;
+<?php
 
-use LaraPress\Posts\Post as BasePost;
+namespace App;
+
+use LaraPress\Posts\Post;
 use LaraPress\Contracts\Posts\CustomPostType;
 
-class Project extends BasePost implements CustomPostType
+class Project extends Post implements CustomPostType
 {
     protected $singular = 'LaraPress Project';
     protected $plural = 'LaraPress Projects';
 
     /**
-     * Returns an array of arguments that define the custom post type. 
+     * Returns an array of arguments that define the custom post type.
      * These are the same arguments that would normally be passed to register_post_type.
      *
      * @see register_post_type
@@ -46,11 +48,11 @@ class Project extends BasePost implements CustomPostType
             'show_in_admin_bar'   => true,
             'show_in_nav_menus'   => true,
             'can_export'          => true,
-            'has_archive'         => true,		
+            'has_archive'         => true,
             'exclude_from_search' => false,
             'publicly_queryable'  => true,
             'capability_type'     => 'page',
-            'rewrite'             => ['slug' => 'larapress-projects']
+            'rewrite'             => ['slug' => 'larapress-projects'],
         ];
     }
 }
