@@ -4,12 +4,12 @@
 
 ## Using Templates
 
-On Posts, Pages, and Custom Post Types, designate available templates with the `getAvailableTemplates` function. Post template values are available in views with the `$__template` variable.
+On Posts, Pages, and Custom Post Types, designate available templates with the static `getAvailableTemplates` method. Post template values are available in views with the `$__template` variable.
 
 ```blade
 class Project extends Post implements CustomPostType
 {
-    public function getAvailableTemplates() {
+    public static function getAvailableTemplates() {
         return ['one-column', 'two-column'];
     }
 ```
