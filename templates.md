@@ -1,28 +1,25 @@
 # Templates
 
 - [Using Templates](#using-templates)
-- [Using Views Within Themes](#using-views-within-themes)
 
 ## Using Templates
-When you create templates in the `view/templates` folder, they are are available as options in a metabox on post types through WP Admin. 
 
-Also for Posts, Pages, Custom Post Types, template values are available in views with the `$__template` variable. 
+On Posts, Pages, and Custom Post Types, designate available templates with the static `getAvailableTemplates` method. Post template values are available in views with the `$__template` variable.
 
-Easily switch between templates and custom pages below with this in your master blade file.
+```blade
+class Project extends Post implements CustomPostType
+{
+    public static function getAvailableTemplates() {
+        return ['one-column', 'two-column'];
+    }
+```
+
+Easily switch between templates and custom pages below with this in your blade file. Just add blade files named after your available templates in the `resources/template` folder. (i.e.: `one-column.blade.php` and `two-column.blade.php`)
 
 ```blade
 @if (isset($__template))
-    @include('templates.' . $__template)
+    @include('template.' . $__template)
 @else
     @yield('content')
 @endif
 ```
-
-## Using Views Within Themes
-
-The standard Laravel way of using the Blade templating is to create your views at `/resources/views/`. This still works
-the exact same way. Although if you'd like to keep the views within your theme, LaraPress allows you to create your views
-in your theme folder. Just add a `views` folder nested directly under your theme folder and voila, you can now use the same
-`view()` Laravel helper function to return views.
-
-*Note: the views nested in your theme folder will override any views located in the resources folder.*
