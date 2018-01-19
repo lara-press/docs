@@ -1,7 +1,8 @@
 # LaraPress
 
-- ## Setup
+- ## Prologue
     - [Installation](/installation.md "Installation")
+    - [Upgrade Guide](/upgrade-guide.md "Upgrade Guide")
 
 - ##  Basics
     - [Routing](http://laravel.com/docs/5.5/routing "Routing")
