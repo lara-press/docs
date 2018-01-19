@@ -34,7 +34,7 @@ class Project extends Post implements CustomPostType
      * @see register_post_type
      * @return array
      */
-    public function customPostTypeData()
+    public static function customPostTypeData()
     {
         return [
             'supports'            => ['title', 'editor', 'excerpt', 'thumbnail', 'page-attributes'],
