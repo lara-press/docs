@@ -9,46 +9,63 @@
     - [Directory Permissions](#directory-permissions)
     - [Application Key](#application-key)
 
-<a name="installation"></a>
 ## Installation
 
-<a name="server-requirements"></a>
-### Server Requirements
-- PHP >= 5.6.4
-- OpenSSL PHP Extension
-- PDO PHP Extension
-- Mbstring PHP Extension
-- Tokenizer PHP Extension
-- XML PHP Extension
-
-<a name="installing-larapress"></a>
 ### Installing LaraPress
-LaraPress utilizes [Composer](http://getcomposer.org) to manage its dependencies. So, before using LaraPress, 
-make sure you have Composer installed on your machine.
+The framework installs onto the [Larvel](https://laravel.com/docs/5.5#installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/5.5#installation).
 
-Once installed, you'll run the following command in your terminal:
+#### Via LaraPress Installer
+Install with the [Installer](https://github.com/lara-press/installer).
+
+1. Add this repository to the global composer.json. (Since the install is a fork, it's not on packagist).
 
 ```
-composer create-project lara-press/larapress --prefer-dist
+"repositories": [
+    {   
+        "url": "https://github.com/lara-press/installer.git",
+        "type": "git"
+    }   
+]
 ```
 
-<a name="configuration"></a>
-### Configuration
+2. Then run `composer require lara-press/installer`.
 
-#### Public Directory
+3. After that, create a new LaraPress project with `larapress new blog`
 
-After installing Laravel, you should configure your web server's document / web root to be the `public` directory. The `index.php` in this directory serves as the front controller for all HTTP requests entering your application.
+#### Manually
 
-#### Configuration Files
+1. Setup a [Laravel](https://laravel.com/docs/5.5#installation) project.
 
-All of the configuration files for the Laravel framework are stored in the `config` directory. Each option is documented, so feel free to look through the files and get familiar with the options available to you.
+2. Setup a database.
 
-#### Directory Permissions
+3. Add database credentials to the .env.
 
-After installing Laravel, you may need to configure some permissions. Directories within the `storage` and the `bootstrap/cache` directories should be writable by your web server or Laravel will not run. If you are using the [Homestead](/docs/{{version}}/homestead) virtual machine, these permissions should already be set.
+4. Merge the following to the composer.json.
 
-#### Application Key
+```
+    "require": {
+        "funkjedi/composer-include-files": "^1.0",
+        "johnpbloch/wordpress": "~4.8",
+        "lara-press/framework": "dev-alternative-install",
+    },
+    "extra": {
+        "include_files": [
+            "public/cms/wp-includes/l10n.php"
+        ],  
+        "installer-paths": {
+            "public/content/mu-plugins/{$name}/": [
+                "larapress/framework"
+            ]   
+        },  
+        "wordpress-install-dir": "public/cms"
+    },  
+```
 
-The next thing you should do after installing Laravel is set your application key to a random string. If you installed Laravel via Composer or the Laravel installer, this key has already been set for you by the `php artisan key:generate` command.
+5. Run composer install.
 
-Typically, this string should be 32 characters long. The key can be set in the `.env` environment file. If you have not renamed the `.env.example` file to `.env`, you should do that now. **If the application key is not set, your user sessions and other encrypted data will not be secure!**
+6. Run this artisan command to publish all LaraPress files. 
+
+`php artisan vendor:publish --provider="LaraPress\Foundation\Providers\PublishServiceProvider" --force`
+
+
+
