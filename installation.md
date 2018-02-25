@@ -1,14 +1,12 @@
 # Installation
 
-- [Installation](#installation)
-    - [Installing LaraPress](#installing-larapress)
+  - [Installing LaraPress](#installing-larapress)
 
-## Installation
-
-### Installing LaraPress
+## Installing LaraPress
+ 
 The framework installs onto the [Larvel](https://laravel.com/docs/5.5#installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/5.5#installation).
 
-#### Via LaraPress Installer
+### Via LaraPress Installer
 Install with the [Installer](https://github.com/lara-press/installer).
 
 1. Add this repository to the global composer.json. (Since the install is a fork, it's not on packagist).
@@ -26,7 +24,7 @@ Install with the [Installer](https://github.com/lara-press/installer).
 
 3. After that, create a new LaraPress project with `larapress new blog`
 
-#### Manually
+### Manually
 
 1. Setup a [Laravel](https://laravel.com/docs/5.5#installation) project.
 
