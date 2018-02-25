@@ -46,7 +46,7 @@ Install with the [Installer](https://github.com/lara-press/installer).
     "require": {
         "funkjedi/composer-include-files": "^1.0",
         "johnpbloch/wordpress": "~4.8",
-        "lara-press/framework": "dev-alternative-install",
+        "lara-press/framework": "~5.6",
     },
     "extra": {
         "include_files": [
