@@ -1,13 +1,7 @@
 # Installation
 
 - [Installation](#installation)
-    - [Server Requirements](#server-requirements)
     - [Installing LaraPress](#installing-larapress)
-- [Configuration](#configuration)
-    - [Public Directory](#public-directory)
-    - [Configuration Files](#configuration-files)
-    - [Directory Permissions](#directory-permissions)
-    - [Application Key](#application-key)
 
 ## Installation
 
