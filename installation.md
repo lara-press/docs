@@ -4,7 +4,7 @@
 
 ## Installing LaraPress
  
-The framework installs onto the [Larvel](https://laravel.com/docs/5.5#installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/5.5#installation).
+The framework installs onto the [Larvel](https://laravel.com/docs/5.6#installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/5.6#installation).
 
 ### Via LaraPress Installer
 Install with the [Installer](https://github.com/lara-press/installer).
@@ -26,7 +26,7 @@ Install with the [Installer](https://github.com/lara-press/installer).
 
 ### Manually
 
-1. Setup a [Laravel](https://laravel.com/docs/5.5#installation) project.
+1. Setup a [Laravel](https://laravel.com/docs/5.6#installation) project.
 
 2. Setup a database.
 
