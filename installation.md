@@ -20,7 +20,7 @@ Install with the [Installer](https://github.com/lara-press/installer).
 ]
 ```
 
-2. Then run `composer require lara-press/installer`.
+2. Then run `composer global require lara-press/installer`.
 
 3. After that, create a new LaraPress project with `larapress new blog`
 
