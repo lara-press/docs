@@ -20,6 +20,7 @@
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
     - [Multisite](/multisite.md "Multisite")
+    - [Routing](/routing.md "Routing")
     - [Sidebars](/sidebars.md "Sidebars")
     - [Shortcodes](/shortcodes.md "Shortcodes")
     - [Taxonomies](/taxonomies.md "Taxonomies")
