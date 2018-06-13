@@ -5,7 +5,7 @@
 - [Display Metabox on a Post Type](#display-metabox-on-a-post-type)
 
 ## Create Metabox
-The WordPress [`add_meta_box`](https://developer.wordpress.org/reference/functions/add_meta_box/) function is abstracted with our metabox manager. Instead use the syntax below. Note: `'postType'` takes place of the `add_meta_box` 'screen'` argument.
+The WordPress [`add_meta_box`](https://developer.wordpress.org/reference/functions/add_meta_box/) function is abstracted with our metabox manager. Instead use the syntax below. Note: `'postType'` takes place of the `add_meta_box` `'screen'` argument.
 
 ```php
 <?php
