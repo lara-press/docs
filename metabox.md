@@ -28,6 +28,8 @@ The WordPress [`add_meta_box`](https://developer.wordpress.org/reference/functio
 
 ## Use Class Method for inputHandler and/or outputHandler
 
+The second argument in the array is the method name on the instance of `$this`.
+
 ```php
             'inputHandler'  => [$this, 'inputHandler'],
             'outputHandler' => [$this, 'outputHandler'],
