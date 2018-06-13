@@ -1,7 +1,7 @@
 # Metabox
 
 - [Create Metabox](#create-metabox)
-- [Use Class Method for inputHandler and outputHandler](#use-class-method-for-inputhandler-andor-outputhandler)
+- [Use Class Method for inputHandler and/or outputHandler](#use-class-method-for-inputhandler-andor-outputhandler)
 - [Display Metabox on a Post Type](#display-metabox-on-a-post-type)
 
 ## Create Metabox
