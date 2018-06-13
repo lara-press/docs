@@ -1,12 +1,13 @@
 # Sidebars
 
 - [Defining Sidebars](#defining-sidebars)
+- [Display Sidebar Metabox on a Post Type](#display-sidebar-metabox-on-a-post-type)
 - [Using Sidebars](#using-sidebars)
 
 ## Defining Sidebars
 
 To add a new sidebar, all we have to do is access our sidebar service provider located at `/app/Providers/SidebarServiceProvider.php`, 
-and add another element to the property `$sidebars` array.
+then add another element to the property `$sidebars` array.
 
 ```php
 <?php namespace App\Providers;
@@ -34,6 +35,10 @@ class SidebarServiceProvider extends BaseSidebarServiceProvider
     ];
 }
 ```
+
+## Display Sidebar Metabox on a Post Type
+See [Metabox](/metabox.md "Metabox").
+
 
 ## Using Sidebars
 

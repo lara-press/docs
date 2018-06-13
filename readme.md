@@ -19,6 +19,7 @@
     - [Filters](/filters.md "Filters")
     - [Helpers](/helpers.md "Helpers")
     - [Menus](/menus.md "Menus")
+    - [Metabox](/metabox.md "Metabox")
     - [Multisite](/multisite.md "Multisite")
     - [Routing](/routing.md "Routing")
     - [Sidebars](/sidebars.md "Sidebars")
@@ -28,7 +29,6 @@
     - [Widgets](/widgets.md "Widgets")
     
 - ## Need Documentation
-    - [MetaBox](/metabox.md "MetaBox")
     - [Page](/page.md "Page")
     - [Post](/post.md "Post")
     - [User](/user.md "User")
