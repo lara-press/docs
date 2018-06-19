@@ -19,21 +19,21 @@ Found the instructions from [WordPress](https://codex.wordpress.org/Create_A_Net
 
 ## Define DB_TABLE PREFIX for LaraPress multisite
 
-Open your wp-config file.
+1. Open your wp-config file.
 
-Change the 
+2. Change the line with:
 
 ```php
 define('DB_TABLE_PREFIX', $table_prefix = env('DB_TABLE_PREFIX', 'wp_'));
 ```
 
-to
+to:
 
 ```php
 $table_prefix = 'wp_';
 ```
 
-Below `require_once(ABSPATH . 'wp-settings.php');`, add the following. This adds the correct prefix for LaraPress queries.
+3. Below `require_once(ABSPATH . 'wp-settings.php');`, add the following. This adds the correct prefix for LaraPress queries.
 
 ```php
 // define table prefix for larapress
