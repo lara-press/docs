@@ -23,11 +23,15 @@ Open your wp-config file.
 
 Change the 
 
-`define('DB_TABLE_PREFIX', $table_prefix = env('DB_TABLE_PREFIX', 'wp_'));`
+```php
+define('DB_TABLE_PREFIX', $table_prefix = env('DB_TABLE_PREFIX', 'wp_'));
+```
 
 to
 
-`$table_prefix = 'wp_';`
+```php
+$table_prefix = 'wp_';
+```
 
 Below `require_once(ABSPATH . 'wp-settings.php');`, add the following. This adds the correct prefix for LaraPress queries.
 
