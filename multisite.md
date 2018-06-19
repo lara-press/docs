@@ -1,6 +1,6 @@
 # Multisite
 
-Note: Only supports subdomain install
+Note: Doesn't support subdirectory multisite install
 
 - [Register Service Provider](#register-service-provider)
 - [Follow WordPress Instructions](#follow-wordpress-instructions)
