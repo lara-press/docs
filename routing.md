@@ -1,6 +1,7 @@
 # Routing
 
 - [Handle Method](#handle-method)
+- [Admin Routes](#admin-routes)
 
 ## Handle Method
 
@@ -15,3 +16,7 @@ $router->handle(\App\News::class, 'NewsController@single');
 ```
 
 With the handle method, you don't need to statically register each route.
+
+## Admin Panel Routes
+
+Defined [Admin Pages](https://github.com/lara-press/docs/blob/master/admin.md) in a controller. Use WordPress actions and filters to manage other admin routes.
