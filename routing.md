@@ -5,7 +5,7 @@
 
 ## Handle Method
 
-Use the handle method for Custom Post Types routes. It can handle all routes for Pages, Posts, or any Custom Post Types created in WP Admin.
+Use the handle method for Custom Post Types routes. It can handle all routes for Pages, Posts, or any Custom Post Types created in WP Admin. Note: The handle will only work if the Model is registered in the `PostTypeServiceProvider`
 
 ```php
 /** @var LaraPress\Routing\Router $router */
