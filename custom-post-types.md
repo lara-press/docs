@@ -12,6 +12,8 @@ The `Post` class is an Eloquent Model. The `CustomPostType` interface requires t
  
 After the class is created, register it in the PostTypeServiceProvider by adding it to the provider's `$postTypes` array.
 
+See the [Routing](https://github.com/lara-press/docs/blob/master/routing.md#handle-method) docs for handling `CustomPostType` routes.
+
 Note: When labels are not added as an argument, LaraPress automatically creates both singular and plural labels from the custom post type class name using Laravel helpers. Override these auto created labels with `$singluar` or `$plural` properties on the class.
 
 ```php
