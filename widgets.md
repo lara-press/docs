@@ -7,7 +7,7 @@
 
 ## Register Widgets
 
-Register widgets in the widgets service provider located at `/app/Providers/WidgetServiceProvider`.
+Register widgets in the `WidgetServiceProvider`.
 
 ```php
 <?php namespace App\Providers;
