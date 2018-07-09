@@ -32,4 +32,4 @@ After that, you can register the route.
  
 ## Admin Panel Routes
  
-Defined [Admin Pages](https://github.com/lara-press/docs/blob/master/admin.md) in a controller. Use WordPress actions and filters to manage other admin routes.
+Define [Admin Pages](https://github.com/lara-press/docs/blob/master/admin.md) in a controller. Use WordPress actions and filters to manage other admin routes.
