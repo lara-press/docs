@@ -27,6 +27,9 @@
     - [Taxonomies](/taxonomies.md "Taxonomies")
     - [Templates](/templates.md "Templates")
     - [Widgets](/widgets.md "Widgets")
+
+- ## Advanced
+    - [Plugins](/plugins.md "Plugins")
     
 - ## Need Documentation
     - [Page](/page.md "Page")
