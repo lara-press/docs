@@ -2,10 +2,11 @@
 
 - [Handle Method](#handle-method)
     - [Use Custom Types From A Plugin](#use-custom-types-from-a-plugin)
+- [Admin Routes](#admin-routes)
 
 ## Handle Method
 
-Use the handle method for Custom Post Types routes. It can handle all routes for Pages, Posts, or any Custom Post Types created in WP Admin.
+Use the handle method for Custom Post Types routes. It can handle all routes for Pages, Posts, or any Custom Post Types created in WP Admin. Note: The handle will only work if the Model is registered in the `PostTypeServiceProvider`
 
 ```php
 /** @var LaraPress\Routing\Router $router */
@@ -28,3 +29,7 @@ After that, you can register the route.
  ```php
  $router->handle(\App\TribeEvents::class, 'EventController@handle');
  ```
+ 
+## Admin Panel Routes
+ 
+Defined [Admin Pages](https://github.com/lara-press/docs/blob/master/admin.md) in a controller. Use WordPress actions and filters to manage other admin routes.
