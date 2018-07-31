@@ -82,15 +82,15 @@ Here is an example of how to save data to a widget. Use the following on a Widge
     public function form($instance)
     {
         echo view('admin.widgets.news', [
-             'name'  => $this->get_field_name('news-widget-title'),
-             'value' => get_option('news-widget-title'),
+             'name'  => $this->get_field_name('news_widget_title'),
+             'value' => array_get($instance, 'news_widget_title'),
         ]);
     }
 
     // Admin Form Save
     public function update($newInstance, $oldInstance)
     {
-        update_option('news-widget-title', array_get($newInstance, 'news-widget-title'));
+        return array_merge($old_instance, $new_instance);
     }
 ```
 
