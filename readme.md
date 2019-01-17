@@ -5,10 +5,10 @@
     - [Upgrade Guide](/upgrade-guide.md "Upgrade Guide")
 
 - ##  Basics
-    - [Routing](http://laravel.com/docs/5.6/routing "Routing")
-    - [Controllers](http://laravel.com/docs/5.6/controllers "Controller")
-    - [Views](http://laravel.com/docs/5.6/views "Views")
-    - [Blade Templates](http://laravel.com/docs/5.6/blade "Blade Templates")
+    - [Routing](http://laravel.com/docs/5.7/routing "Routing")
+    - [Controllers](http://laravel.com/docs/5.7/controllers "Controller")
+    - [Views](http://laravel.com/docs/5.7/views "Views")
+    - [Blade Templates](http://laravel.com/docs/5.7/blade "Blade Templates")
         
 - ## Services
     - [Actions](/actions.md "Actions")

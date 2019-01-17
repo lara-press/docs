@@ -4,7 +4,7 @@
 
 ## Facade Class Reference
 
-Learn about facades from the [Laravel documentation](https://laravel.com/docs/5.6/facades).
+Learn about facades from the [Laravel documentation](https://laravel.com/docs/5.7/facades).
 
 Facade  |  Class  |  Service Container Binding
 ------------- | ------------- | -------------
