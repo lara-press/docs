@@ -36,14 +36,10 @@ Install with the [Installer](https://github.com/lara-press/installer).
 
 ```
     "require": {
-        "funkjedi/composer-include-files": "^1.0",
         "johnpbloch/wordpress": "~4.8",
         "lara-press/framework": "~5.7",
     },
     "extra": {
-        "include_files": [
-            "public/cms/wp-includes/l10n.php"
-        ],  
         "installer-paths": {
             "public/content/mu-plugins/{$name}/": [
                 "larapress/framework"
