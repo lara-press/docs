@@ -4,7 +4,7 @@
 
 ## Installing LaraPress
  
-The framework installs onto the [Larvel](https://laravel.com/docs/5.7#installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/5.7#installation).
+The framework installs onto the [Larvel](https://laravel.com/docs/7.x/installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/7.x/installation).
 
 ### Via LaraPress Installer
 Install with the [Installer](https://github.com/lara-press/installer).
@@ -26,7 +26,7 @@ Install with the [Installer](https://github.com/lara-press/installer).
 
 ### Manually
 
-1. Setup a [Laravel](https://laravel.com/docs/5.7#installation) project.
+1. Setup a [Laravel](https://laravel.com/docs/7.x/installation) project.
 
 2. Setup a database.
 
@@ -37,8 +37,8 @@ Install with the [Installer](https://github.com/lara-press/installer).
 ```
     "require": {
         "funkjedi/composer-include-files": "^1.0",
-        "johnpbloch/wordpress": "~4.8",
-        "lara-press/framework": "~5.7",
+        "johnpbloch/wordpress": "~5.4",
+        "lara-press/framework": "~7.0",
     },
     "extra": {
         "include_files": [
