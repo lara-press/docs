@@ -4,7 +4,7 @@
 
 ## Installing LaraPress
  
-The framework installs onto the [Larvel](https://laravel.com/docs/7.x/installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/7.x/installation).
+The framework installs onto the [Larvel](https://laravel.com/docs/7.x/installation) Framework. Requirements are found in the Laravel [docs](https://laravel.com/docs/7.x/installation#server-requirements).
 
 ### Via LaraPress Installer
 Install with the [Installer](https://github.com/lara-press/installer).
